@@ -1,0 +1,29 @@
+
+// Config -----------------------------------
+@syntax-hue:          230;
+@syntax-saturation:    1%;
+@syntax-brightness:   97%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue, 6%, 15%);
+@mono-2: hsl(@syntax-hue, 4%, 40%);
+@mono-3: hsl(@syntax-hue, 2%, 55%);
+@mono-4: hsl(@syntax-hue, 1%, 70%);
+
+// Colors -----------------------------------
+@hue-0: hsl(220, 60%, 35%);
+@hue-1: hsl(190, 100%, 32%); // <-cyan
+@hue-2: hsl(220, 75%, 50%); // <-blue
+@hue-3: hsl(300, 65%, 40%); // <-purple
+@hue-4: hsl(120, 35%, 45%); // <-green
+@hue-5: hsl(345, 80%, 40%); // <-red
+@hue-6: hsl(35, 100%, 35%); // <-orange
+
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-bg, 35%);
+@syntax-guide:  fade(@syntax-fg, 20%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66% );
