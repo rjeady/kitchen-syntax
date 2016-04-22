@@ -1,13 +1,13 @@
 {
   "name": "kitchen-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "1.0.0",
+  "description": "A light syntax theme.",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/kitchen-syntax",
+  "repository": "https://github.com/rjeady/kitchen-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
